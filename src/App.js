@@ -1,6 +1,7 @@
 import React, { useEffect, useState,useContext } from "react";
 import MovieCard from "./MovieCard";
 import SearchIcon from "./search.svg";
+import Footer from "./Footer"
 import './App.css';
 let i=0;
 // const ThemeContext = React.createContext({background:"white",color:"grey"})
@@ -56,6 +57,7 @@ const App = () => {
             </div>
           )
         }
+        <Footer/>
       </div>
 
   );
